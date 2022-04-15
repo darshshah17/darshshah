@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Darsh Shah's Website</title>
+
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar is-size-5" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <!-- <div class="navbar-start"> -->
+                <!-- Logo  -->
+                <a class="navbar-item navbar-logo" href="#" style="display: inline;float: left;">
+                    <img src="resources/images/Untitled_presentation-removebg.png" width="60px">
+                </a>
+
+                <!-- <div style="margin-left: 250px;"> -->
+                <a role="button" class="navbar-burger" id="burger" onclick="toggleBurger()">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+                <!-- </div> -->
+            <!-- </div> -->
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end">           
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-item is-rounded" href="#">
+                Home
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="#experience">
+                  Experience
+                </a>
+                <a class="navbar-item" href="#skills">
+                  Skills
+                </a>
+                <a class="navbar-item" href="#projects">
+                    Projects
+                </a>
+                <a class="navbar-item" href="#achievements/certifications">
+                  Achievements
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item is-rounded" href="aboutme.html">
+                About Me
+            </a>
+
+            <!-- <br>
+            <br> -->
+            <a class="button is-info is-rounded navbutton" href="https://drive.google.com/file/d/14qnmfzjslTSTG-80m-bO-lqbMWKU8bXr/view?usp=sharing" target="_blank">
+                <strong>Resume</strong>
+            </a>
+          </div>
+        </div>
+      </nav> 
+
+    <!-- Main Page -->
+    <section class="section title-slide">
+        <div class="container">
+            <h1 class="main-title">
+                Hi, I'm <br class="is-hidden-desktop">Darsh Shah!
+            </h1>
+
+            <p class="openingparagraph">
+                Welcome to my website. I'm an aspiring computer scientist with a passion for coding and a drive
+                for creating change through technology. <br>Thank you for taking the time to view my website!
+            </p>
+        </div>
+
+        <!-- <div class="main-contact">
+            <a href="https://www.instagram.com/d.shah._/" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/darsh-shah-87a284209/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="mailto: darshshah1008@gmail.com" target="_blank" class="fa fa-envelope"></a>
+        </div> -->
+    </section>
+
+    <section class="black-line"></section>
+
+    <!-- Experience -->
+    <section class="section cover-screen is-fluid" id="experience">
+        <div class="container">
+            <h1 class="title is-white">
+                Experience
+            </h1>
+<!-- 
+            <h2 class="">
+
+            </h2> -->
+
+            <div class="columns">
+                <div class="column">
+                    <div class="columns info-container-mobile">
+                        <div class="column is-one-third chingstem-logo" style="margin-top: 15px;">
+                            <img src="resources/images/chingstem-logo.png" width="80%">
+                        </div>
+
+                        <div class="column is-two-thirds">
+                            <br>
+                            <h2 class="is-size-5 title-text"><strong class="is-white">Chinguacousy <br>STEM Club</strong></h2>
+                            <h3 class="title-subtext is-size-6">Co-President</h3>
+                            <br>
+                        </div>
+                    </div>  
+
+                    <!-- <p class="experience-text">
+                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                    </p> -->
+                </div>
+
+                <!-- -------------- -->
+
+                <div class="column">
+                    <div class="columns">
+                        <div class="column is-one-third sadc-logo" style="margin-top: 30px;">
+                            <img src="resources/images/sadc-logo.png" width="60%">
+                        </div>
+
+                        <div class="column is-two-thirds" style="margin-top: 35px;">
+                            <h2 class="title-text is-size-5"><strong class="is-white">SADC</strong></h2>
+                            <h3 class="title-subtext is-size-6">Web Developer</h3>
+                            <br>
+                        </div>
+                    </div>  
+
+                    <!-- <p class="experience-text">
+                        (the SciTech Academic Development Committee is___)Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                    </p>  -->
+                </div>
+
+                <!-- -------------- -->
+
+
+                <div class="column">
+                    <div class="columns">
+                        <div class="column is-one-third pmc-logo" style="margin-top: 10px;">
+                            <img src="resources/images/pmc-logo.png" width="100%">
+                        </div>
+
+                        <div class="column is-two-thirds">
+                            <br>
+                            <h2 class="title-text is-size-5"><strong class="is-white">Project Millionaire Canada</strong></h2>
+                            <h3 class="title-subtext is-size-6">Chief Financial Officer</h3>
+                            <br>
+                        </div>
+                    </div>  
+
+                    <!-- <p class="experience-text">
+                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                    </p> -->
+                </div>
+            </div>
+
+            <br>
+
+            <div class="columns">
+                <div class="column">
+                    <div class="columns">
+                        <div class="column is-one-third modelun-logo" style="margin-top: 15px;">
+                            <img src="resources/images/modelun-logo.png" width="70%">
+                        </div>
+
+                        <div class="column is-two-thirds">
+                            <br>
+                            <h2 class="title-text is-size-5"><strong class="is-white">Model United Nations</strong></h2>
+                            <h3 class="title-subtext is-size-6">Advanced Delegate Leader</h3>
+                            <br>
+                        </div>
+                    </div>  
+
+                    <!-- <p class="experience-text">
+                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                    </p> -->
+                </div>
+
+                <!-- -------------- -->
+                
+                <div class="column">
+                    <div class="columns">
+                        <div class="column is-one-third pmvsc-logo" style="margin-top: 20px;">
+                            <img src="resources/images/pmvsc-logo.png" width="100%">
+                        </div>
+
+                        <div class="column is-two-thirds">
+                            <br>
+                            <h2 class="title-text is-size-5"><strong class="is-white">PMVSC</strong></h2>
+                            <h3 class="title-subtext is-size-6">Volunteer</h3>
+                            <br>
+                        </div>
+                    </div>  
+
+                    <p class="experience-text">
+                        <!-- (completed 400 hours)Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum -->
+                    </p>
+                </div>
+
+                <!-- -------------- -->
+
+                <div class="column is-hidden-mobile">
+                    <div class="columns">
+                        <div class="column is-one-third codingfoundation-logo" style="margin-top: 20px;">
+                            <img src="resources/images/codingfoundation-logo.png">
+                        </div>
+
+                        <div class="column is-two-thirds">
+                            <br>
+                            <h2 class="title-text is-size-5"><strong class="is-white">The Coding Foundation</strong></h2>
+                            <h3 class="title-subtext is-size-6">Web Development Intern</h3>
+                            <br>
+                        </div>
+                    </div>  
+
+                    <!-- <p class="experience-text">
+                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                    </p> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="margin-50 is-hidden-mobile"></div>
+    </section>
+
+    <section class="black-line"></section>
+
+    <!-- 
+        <button class="button is-primary is-rounded">
+                test
+            </button>
+     -->
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h1 class="title">
+                Skills
+            </h1>
+
+            <div class="columns">
+                <div class="experience-container-half">
+                    <h2 class="skills-title is-size-5"><strong>Soft Skills:</strong></h2>
+                    <br>
+                    <p class="skill-button box">Multilingual Communication</p>
+                    <p class="skill-button box">Leadership</p>
+                    <p class="skill-button box">Collaboration</p>
+                    <p class="skill-button box">Problem-Solving</p>
+                    <p class="skill-button box">Stress Management</p>
+                    <p class="skill-button box">Organization</p>
+                    <p class="skill-button box">Conflict Resolution</p>
+                    <p class="skill-button box">Time Management</p>
+                    <p class="skill-button box is-hidden-mobile">Resourcefulness</p>
+                </div>
+
+                <div class="experience-container-middle"></div>
+
+                <div class="experience-container-half">
+                    <h2 class="skills-title is-size-5"><strong>Hard Skills:</strong></h2>
+                    <br>
+                    <p class="skill-button box">Python</p>
+                    <p class="skill-button box">HTML/CSS</p>
+                    <p class="skill-button box">JavaScript</p>
+                    <p class="skill-button box">C, C++</p>
+                    <p class="skill-button box">Prototyping</p>
+                    <p class="skill-button box">Figma</p>
+                    <p class="skill-button box">Finance Management</p>
+                    <p class="skill-button box">Google Suite</p>
+                    <p class="skill-button box">Microsoft Office</p>
+                    <p class="skill-button box">Autodesk Software</p>
+                    <p class="skill-button box is-hidden-mobile">Github</p>
+                    <p class="skill-button box is-hidden-mobile">Analytical Thinking</p>
+                    <p class="skill-button box is-hidden-mobile">UI/UX</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="margin-50"></div>
+    </section>
+
+    <section class="black-line"></section>
+    
+    <!-- Projects -->
+    <section class="section cover-screen is-fluid" id="projects">
+        <div class="container">
+            <h1 class="title is-white">
+                Projects
+            </h1>
+
+            <div class="columns">
+                <div class="column">
+                    <div class="fa fa-gear is-size-2"></div>
+
+                    <h2 class="title-text is-size-5"><strong class="is-white">Fitness App</strong></h2>
+                    <h3 class="title-subtext is-size-8">Figma, CSS</h3>
+                    <br>
+                    <!-- <a class="button is-info is-rounded">
+                        Link
+                    </a> -->
+                </div>
+                <div class="column">
+                    <div class="fa fa-gear is-size-2" style="color:#ababab"></div>
+
+                    <h2 class="title-text is-size-5"><strong class="is-white">Calculator</strong></h2>
+                    <h3 class="title-subtext is-size-8">JavaScript</h3>
+                    <br>
+                    <!-- <a class="button is-info is-rounded">
+                        Link
+                    </a> -->
+                </div>
+                <div class="column">
+                    <div class="fa fa-gear is-size-2" style="color:#ababab"></div>
+
+                    <h2 class="title-text is-size-5"><strong class="is-white">Quadratic Solver</strong></h2>
+                    <h3 class="title-subtext is-size-8">Python</h3>
+                    <br>
+                    <!-- <a class="button is-info is-rounded">
+                        Link
+                    </a> -->
+                </div>
+                <div class="column">
+                    <div class="fa fa-gear is-size-2" style="color:#ababab"></div>
+                    
+                    <h2 class="title-text is-size-5"><strong class="is-white">Security System</strong></h2>
+                    <h3 class="title-subtext is-size-8">C, C++, Arduino</h3>
+                    <br>
+                    <!-- <a class="button is-info is-rounded">
+                        Link
+                    </a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="margin-50"></div>
+    </section>
+    <section class="black-line"></section>
+
+    <!-- Achievements/Certifications -->
+    <section class="section" id="achievements/certifications">
+        <div class="container">
+            <h1 class="title">
+                Achievements/<br class="is-hidden-desktop">Certifications
+            </h1>
+<!-- 
+            <h2 class="">
+
+            </h2> -->
+
+            <div class="columns" style="margin-top: 15px; margin-bottom: 30px;">
+                <div class="column">
+                    <div class="columns">
+                        <div class="column is-one-fifth">
+                            <div class="trophy-symbol is-size-2">&#127942;</div>
+                        </div>
+                        <div class="column is-four-fifths">
+                            <h2 class="title-text is-size-6"><strong>Certificate of Distinction</strong></h2>
+                            <h3 class="title-subtext is-size-8" style="font-style: italic;">Canadian Computing <br>Competition 2022</h3>
+                            <br>
+                        </div>
+                    </div>  
+<!-- 
+                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum -->
+                </div>
+
+                <div class="column">
+                    <div class="columns">
+                        <div class="column is-one-fifth">
+                            <div class="trophy-symbol is-size-2">&#127942;</div>
+                        </div>
+                        <div class="column is-four-fifths">
+                            <h2 class="title-text is-size-6"><strong>2nd Place</strong></h2>
+                            <h3 class="title-subtext is-size-8" style="font-style: italic;">RBC Stock Pitch Competition</h3>
+                            <br>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="column">
+                    <div class="columns">
+                        <div class="column is-one-fifth">
+                            <div class="trophy-symbol is-size-2">&#127942;</div>
+                        </div>
+                        <div class="column is-four-fifths">
+                            <!-- <div style="margin-top: 10px;"></div> -->
+                            <h2 class="title-text is-size-6"><strong>1st Place</strong></h2>
+                            <h3 class="title-subtext is-size-8" style="font-style: italic;">Sr. Boys Cricket - 
+                                NPPHEA 2018
+                            </h3>
+                            <br>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="column">
+                    <div class="columns">
+                        <div class="column is-one-fifth">
+                            <div class="trophy-symbol is-size-2">&#127942;</div>
+                        </div>
+                        <div class="column is-four-fifths">
+                            <!-- <div style="margin-top: 10px;"></div> -->
+                            <h2 class="title-text is-size-6"><strong>2nd Place</strong></h2>
+                            <h3 class="title-subtext is-size-8" style="font-style: italic;">Sr. Boys Cricket - 
+                                NPPHEA 2017</h3>
+                            <br>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <!-- ------------------------------------------------------------------------------------------- -->
+
+            <div class="columns">
+                <div class="column">
+                    <div class="columns">
+                        <div class="column is-one-fifth ribbon-symbol" style="margin-top: 15px;">
+                            <img src="resources/images/ribbon-icon.png" width="50%">
+                        </div>
+                        <div class="column is-four-fifths">
+                            <h2 class="title-text is-size-6"><strong>HTML, CSS, and Javascript for Web Developers</strong></h2>
+                            <h3 class="title-subtext is-size-8" style="font-style: italic;">Coursera 2021</h3>
+                            <br>
+
+                            <a class="button is-info is-rounded" href="https://drive.google.com/file/d/1Z83c22DQzO7t-kDwqyRc2VMw2GWrRk01/view?usp=sharing" target="_blank">
+                                Link
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="column">
+                    <div class="columns">
+                        <div class="column is-one-fifth ribbon-symbol" style="margin-top: 15px;">
+                            <img src="resources/images/ribbon-icon.png" width="50%">
+                        </div>
+                        <div class="column is-four-fifths">
+                            <h2 class="title-text is-size-6"><strong>Python for Finance: Investment Fundamentals</strong></h2>
+                            <h3 class="title-subtext is-size-8" style="font-style: italic;">Udemy 2021</h3>
+                            <br>
+
+                            <a class="button is-info is-rounded" href="https://drive.google.com/file/d/1xzZF9wMFjKrdg_PNZIf7eR4kHWyMfWRI/view?usp=sharing" target="_blank">
+                                Link
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="columns" style="margin-top: 20px;">
+                <div class="column">
+                    <div class="columns">
+                        <div class="column is-one-fifth ribbon-symbol" style="margin-top: 15px;">
+                            <img src="resources/images/ribbon-icon.png" width="50%">
+                        </div>
+                        <div class="column is-four-fifths">
+                            <h2 class="title-text is-size-6"><strong>Bronze Cross and CPR-C + Standard First Aid</strong></h2>
+                            <h3 class="title-subtext is-size-8" style="font-style: italic;">Lifesaving Society Ontario</h3>
+                            <br>
+
+                            <a class="button is-info is-rounded" href="https://drive.google.com/file/d/1XXgt8HxNNX4eQaL1f7nCqCOV0CWRxgy3/view?usp=sharing" target="_blank">
+                                Link
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="column">
+                    <div class="columns">
+                        <div class="column is-one-fifth ribbon-symbol" style="margin-top: 15px;">
+                            <img src="resources/images/ribbon-icon.png" width="50%">
+                        </div>
+                        <div class="column is-four-fifths">
+                            <h2 class="title-text is-size-6"><strong>MIKEY AED & CPR Certification</strong></h2>
+                            <h3 class="title-subtext is-size-8" style="font-style: italic;">The Mikey Network 2021</h3>
+                            <br>
+
+                            <a class="button is-info is-rounded" href="https://drive.google.com/file/d/1cryXYtzOm3kfqqwPjUx2V6Mp6SW2dovN/view?usp=sharing" target="_blank">
+                                Link
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="box footer">
+        <div class="copy has-text-centered">
+            <strong>Copyright &copy; 2022 Darsh Shah. <br class="is-hidden-desktop">All Rights Reserved</strong>
+        </div>
+
+        <div class="has-text-centered" style="margin-top: 10px;">
+            <a href="https://www.instagram.com/d.shah._/" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/darsh-shah-87a284209/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="mailto: darshshah1008@gmail.com" target="_blank" class="fa fa-envelope"></a>
+        </div>
+    </footer>
+</body>
+</html>

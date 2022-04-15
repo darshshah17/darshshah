@@ -1,0 +1,457 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+* {
+    box-sizing: border-box;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* margin-left: 5px;
+    margin-right: 5px; */
+}
+
+body {
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* .center {
+    display: block;
+    margin: auto;
+} */
+
+.navbar {
+    margin-top: 20px;
+    position: fixed;
+    padding: 10px; 
+    width: 85.5%;
+    box-sizing: border-box;
+    background: rgba(192, 192, 192, 0.8);
+    border-radius: 10px;
+}
+
+.navbar-logo {
+    margin-top: 5px;
+    display: inline;
+    float: left;
+}
+
+/* .navbar-menu {
+    float: right;
+} */
+
+.navbutton {
+    margin: auto 10px auto 5px;
+}
+
+.navbar-logo:hover {
+    opacity: 75%;
+}
+
+.add-hover:hover {
+    background-color: transparent;
+    color: orange;
+}
+
+/* 
+.navbar-burger-tags {
+    display: inline-block;
+} */
+
+/* .brand-image {
+    background: ur) no-repeat center center;
+} */
+
+.title-slide {
+    height: 100vh;
+}
+
+.main-title {
+    margin-top: 150px;
+    line-height: normal;
+}
+
+
+h1 {
+    color: rgb(8, 8, 150);
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    /* margin-right: auto;
+    margin-left: auto; */
+    font-weight: bold;
+    overflow: hidden;
+    text-align: center; 
+    width: 100%;
+}
+
+.openingparagraph {
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    /* margin-bottom: 185px; */
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 1.5;
+}
+
+/*.main-contact {
+    margin-top: 30px;
+    text-align: center;
+}*/
+
+.add-gradient {
+    background: #080896;
+    background: -moz-linear-gradient(left, #080896 0%, #000000 100%);
+    background: -webkit-linear-gradient(left, #080896 0%, #000000 100%);
+    background: linear-gradient(to right, #080896 0%, #000000 100%);
+}
+
+.margin-50 {
+    margin-bottom: 50px;
+}
+
+.black-line {
+    background-color: #000000;
+    width: 120vw;
+    margin-left: -10vw;
+    height: 5px;
+}
+
+.experience-container {
+    text-align: justify;
+}
+
+.experience-container:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.experience-container:before {
+    content: '';
+    display: block;
+}
+
+.experience-button, .skill-button { /*skill button doesn't need the hover bc there's nothing to click */
+    padding: 10px;
+    background-color: white;
+    margin: 10px 5px 10px 5px;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+}
+
+.experience-button:hover {
+    box-shadow: 0 0 5px black;
+    /* border: 0px; */
+}
+
+.experience-container-half {
+    text-align: justify;
+    width: 47.5%;
+    float: left;
+    margin-top: 30px;
+}
+
+.experience-container-half:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.experience-container-half:before {
+    content: '';
+    display: block;
+}
+
+.experience-container-middle {
+    width: 5%;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.cover-screen {
+    background-color: rgb(8, 8, 150);
+    width: 120%;
+    margin-left: -10%;
+}
+
+.is-white {
+    color: white;
+}
+
+.title-subtext {
+    margin-top: 5px;
+    color: #ababab;
+    font-weight: bold;
+}
+
+.fa-gear {
+    margin-left: -20px;
+    margin-bottom: 10px;
+    color:#ababab
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.projectsinparagraph {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.projectsinparagraph:hover {
+    font-style: italic;
+    color: rgb(8, 8, 150);
+}
+
+.trophy-symbol {
+    margin-right: 10px;
+
+}
+
+.footer {
+    color: transparent;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+@media (min-width: 1201px) {
+    /*  */
+} 
+
+
+@media (min-width: 949px) and (max-width: 1200px) {
+    /*  */
+}
+
+@media (min-width: 861px) and (max-width: 948px) {
+    /*  */
+}
+
+@media (min-width: 768px) and (max-width: 860px) {
+    body {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    * {
+        overflow: hidden;
+        /* overflow-y:; */
+    }
+
+    .navbar {
+        width: 100%;
+        margin-top: 0px;
+        /* position: fixed; */
+    }
+
+    /* .navbar:focus {
+        background: rgba(192, 192, 192, 1);
+    } */
+
+    .navbar-logo {
+        left: 40px;
+    }
+
+    .navbar-logo:hover {
+        opacity: 50%;
+    }
+
+    .navbar-brand {
+        width: 100%;
+    }
+
+    .navbar-burger {
+        display: block;
+        /* float: right; */
+        right: 50px;
+    }
+
+    .navbar-menu {
+        background: transparent;
+        box-shadow: none;
+    }
+    
+    body {
+        width: 100%;
+        margin: 0px;
+    }
+
+    h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .main-title {
+        margin-top: 100px;
+    } 
+
+    .title-slide {
+        height: 100vh;
+    }
+
+    .openingparagraph {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .experience-text {
+        display: none;
+    }
+
+    .title-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .title-subtext {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .make-col-container {
+        display: inline;
+    }
+
+    .make-col-mobile {
+        display: inline;
+        float: left;
+
+    }
+
+    .info-container-mobile {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .chingstem-logo {
+        /* display: block; */
+        width: 40%;
+        margin-left: 34.5%;
+        margin-right: auto;
+        margin-bottom: -30px;
+        /* float: left; */
+    }
+
+    .sadc-logo {
+        width: 40%;
+        margin-left: 37%;
+        margin-right: auto;
+        /* margin-bottom: 15px; */
+        /* display:inline-block; */
+        margin-bottom: -30px;
+    }
+
+    .pmc-logo {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -40px;
+        /* float: left; */
+    }
+
+    .modelun-logo {
+        width: 40%;
+        margin-left: 36%;
+        margin-right: auto;
+        margin-bottom: 0px;
+        /* float: left; */
+    }
+
+    .pmvsc-logo {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -10px;
+        /* float: left; */
+    }
+
+    /* .codingfoundation-logo {
+        width: 60%;
+        margin-left: 27%;
+        margin-right: auto;
+        margin-bottom: -15px;
+        margin-top: 20px;
+        /* float: left; */
+
+    .fa-gear {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button {
+        text-align: center;
+        display: block;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -35px;
+        margin-bottom: 30px;
+    }
+
+    /* Don't move (doesn't do it's function when put earlier) */
+    .navbutton {
+        margin-left: 0px;
+        width: 30%;
+        margin-top: 10px;
+    }
+
+    .skills-title {
+        padding-left: 5px;
+    }
+
+    .experience-container-half {
+        text-align: left;
+        width: 100%;
+        padding-left: 10px;
+        float: left;
+        margin-top: 30px;
+    }
+
+    .trophy-symbol {      
+        width: 13%;
+        margin: auto;
+    }
+
+    .ribbon-symbol {
+        width: 30%;
+        margin-left: 42%;
+        margin-right: auto;
+        display: block;
+    }
+
+    .fa-instagram, .fa-linkedin, .fa-envelope {
+        width: fit-content;
+        padding: 10px;
+    }
+
+    /* About Me Styles */
+    .aboutme-text {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .projectsinparagraph {
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+    }
+}
